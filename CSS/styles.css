@@ -71,7 +71,7 @@ ul li {
 	padding: 12px 8px 12px 40px;
 	background: #eee;
 	font-size: 18px;
-	transition: 0.2s;
+	transition: 0.1s;
 
 	/* make the list items unselectable */
 	-webkit-user-select: none;
@@ -141,7 +141,7 @@ ul li:nth-child(odd) {
 	text-align: center;
 	font-size: 16px;
 	cursor: pointer;
-	transition: 0.3s;
+	transition: 0.1s;
 	border-radius: 0;
 }
   
