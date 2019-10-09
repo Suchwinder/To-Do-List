@@ -1,0 +1,19 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "Web page for setting up tasks to be completed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suchwinder/To-Do-List.git"
+  },
+  "author": "Suchwinder Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suchwinder/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/Suchwinder/To-Do-List#readme"
+}
