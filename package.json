@@ -1,10 +1,10 @@
 {
   "name": "to-do-list",
   "version": "1.0.0",
-  "description": "Web page for setting up tasks to be completed",
+  "description": "To-Do-List Web Page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "open HTML/index.html"
   },
   "repository": {
     "type": "git",
