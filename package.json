@@ -4,7 +4,7 @@
   "description": "To-Do-List Web Page",
   "main": "index.js",
   "scripts": {
-    "test": "open HTML/index.html"
+    "start": "open HTML/index.html"
   },
   "repository": {
     "type": "git",
