@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>To-Do List</title>
+    <!--Allows input characters to be encoded using UTF-8 standards-->
+    <meta charset="utf-8"> 
+    <!--Allows size of webpage to adjust to differnt device screen sizes, e.g. phones vs desktops-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Basic description of Webpage-->
+    <meta name="author" content="Suchwinder Singh">
+    <meta name="description" content="This is my To-Do List webpage">
+    <!--reference to CSS file storing the design of the webpage-->
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    
+</head>
+<body>
+    <div id = "List">
+        <h1>To-Do List</h1>
+        <input autofocus type="text" id="input" placeholder="E.g. Build a web app">
+        <span onclick="newElement()" class="addButton">Add</span>
+
+    </div>
+    <ul id="tasks">
+        <!--Insert tasks that have to still be completed-->
+    </ul>
+    <!--Source for Javascript "Should put at bottom so HTML and CSS loads first"-->
+    <script src="../JS/main.js"></script>
+</body>
