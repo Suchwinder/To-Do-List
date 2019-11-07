@@ -1,3 +1,4 @@
+//event listener to pick up enter keypress
 input.addEventListener("keypress", function(event) {
     if (event.keyCode === 13) {
      event.preventDefault();
