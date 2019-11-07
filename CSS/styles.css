@@ -140,7 +140,7 @@ ul li:nth-child(odd) {
 }
   
 /* Style the "Add" button */
-.addButton {
+#addButton {
 	margin: 0;
 	padding: 10px;
 	width: 25%;
@@ -154,7 +154,7 @@ ul li:nth-child(odd) {
 	border-radius: 0;
 }
   
-.addButton:hover {
+#addButton:hover {
 	background-color: #365579;
 	color: white;
 }

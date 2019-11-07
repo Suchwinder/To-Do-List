@@ -1,3 +1,10 @@
+input.addEventListener("keypress", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("addButton").click();
+    }
+});
+
 //function that adds a new list item when Add is clicked
 function newElement(){
     var inputValue = document.getElementById("input").value;
