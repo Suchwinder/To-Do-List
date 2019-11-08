@@ -28,7 +28,7 @@ function newElement(){
         cross.className = "close";
         cross.appendChild(deleteMark);
         task.appendChild(cross);
-        //creating a on
+        //creating the delete function
         cross.onclick = () =>{
             var div = cross.parentElement;
             div.style.display = "none";
